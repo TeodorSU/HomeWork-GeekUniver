@@ -1,0 +1,116 @@
+ .search__btn {
+   margin: 0 auto;
+   padding: 0;
+   font-family: "Lato", sans-serif;
+   font-size: 14px;
+   border: none;
+   border-radius: 3px 0 0 3px;
+
+
+   background-color: #cdcdcc;
+
+   width: 87px;
+   height: 38px;
+
+   a {
+
+     text-decoration: none;
+     text-align: center;
+
+    p {
+      color: #222222;
+      margin-top: 9px;
+    }
+    p:after {
+      content: url("../../images/arrow_down.png");
+      padding-left: 5px;
+    }
+   }
+
+ }
+
+ .search__line {
+   margin: 0 auto;
+
+   font-size: 14px;
+   width: 280px;
+   height: 38px;
+   border: none;
+   border-radius: 0 10px 10px 0;
+
+   color: #a4a4a4;
+   font-weight: 300;
+   font-style: normal;
+   letter-spacing: 0.35px;
+   line-height: 32px;
+   text-align: left;
+   padding-left: 15px;
+
+ }
+
+ .search__item {
+   margin: 0 auto;
+   padding: 0;
+   width: 36px;
+   height: 38px;
+   border: none;
+   border-left: 1px solid #e6e6e6;
+
+
+   & a{
+     width: 38px;
+     height: 38px;
+
+    & img {
+      display: flex;
+      justify-content: center;
+      padding-top: 12px;
+    }
+   }
+
+
+ }
+
+
+ .header__basket {
+
+   margin: 25px 0 0 0;
+   display: flex;
+   align-self: baseline;
+
+    img {
+      margin-top: 8px;
+      margin-right: 26px;
+      width: 32px;
+      height: 29px;
+    }
+   .btn__account {
+
+     margin: 0 auto;
+     padding: 0;
+     font-family: "Lato", sans-serif;
+     font-size: 14px;
+     color: #ffffff;
+
+     border: none;
+     background-color: #de6978;
+
+     width: 130px;
+     height: 38px;
+     transition: background-color 0.3s linear;
+    &:hover {
+      background-color: #ffffff;
+      color:#de6978;
+      border: 1px solid #de6978;
+    }
+    &:active {
+      transform: scale(0.9, 0.9);
+    }
+   }
+   img:hover {
+     transform: scale(1.1 , 1.1);
+   }
+   img:active {
+     transform: scale(0.9 , 0.9);
+   }
+ }

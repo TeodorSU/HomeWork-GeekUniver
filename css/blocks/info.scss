@@ -1,0 +1,76 @@
+.logo_posit {
+  display: flex;
+  width: 72px;
+}
+.info {
+  margin-top: 123px;
+  display: flex;
+  &__brand {
+    width: 430px;
+
+    p {
+      color: #898989;
+      font-size: 14px;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 24px;
+      text-align: left;
+    }
+    p:nth-child(1) {
+      margin-top: 22px;
+      margin-bottom: 20px;
+    }
+  }
+  &__company {
+    margin-left: 60px;
+  }
+  &__category {
+    margin-left: 30px;
+  }
+
+
+  &__company, &__info, &__category {
+    margin-top: 20px;
+    span {
+
+      margin-bottom: 45px;
+      color: #f16d7f;
+      font-size: 18px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0.35px;
+      line-height: 26px;
+      text-align: right;
+      text-transform: uppercase;
+    }
+    ul{
+      width: 220px;
+      padding: 20px 0 0 0;
+    }
+    li {
+      padding-top: 20px;
+      list-style-type: none;
+
+
+    }
+    a{
+      text-decoration: none;
+      color: #898989;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: 0.4px;
+      line-height: normal;
+      text-align: right;
+
+      &:hover {
+        text-shadow: 1px 1px 1px #7a7a7a;
+      }
+      &:active {
+        text-shadow: none;
+      }
+    }
+  }
+}
+

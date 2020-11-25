@@ -1,0 +1,111 @@
+.baner {
+  position: relative;
+  display: flex;
+  margin-top: 113px;
+
+  &__forWomen {
+
+    position: relative;
+
+    width: 767px;
+    height: 529px;
+    background-color: black;
+
+    .baner__photo {
+
+      img:nth-child(1) {
+        position: absolute;
+      }
+
+    }
+
+
+
+    .baner__text {
+      position: absolute;
+      z-index: 1;
+
+      margin: 146px 0 135px 39px;
+
+      p {
+        color: #ffffff;
+        font-size: 54px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+      }
+
+      p:nth-child(1) {
+
+        font-style: normal;
+        letter-spacing: 1.5px;
+        line-height: normal;
+      }
+
+      p:nth-child(2) {
+        font-size: 32px;
+        font-style: normal;
+        letter-spacing: 0.9px;
+        line-height: normal;
+      }
+
+      span {
+        color: #f16d7f;
+        font-style: normal;
+        letter-spacing: 1.5px;
+        line-height: normal;
+      }
+    }
+
+
+  }
+
+
+
+  &__deliv {
+    width: 373px;
+    height: 529px;
+    background-color: #222224;
+  }
+  &__content {
+    display: flex;
+    width: 100%;
+    height: 33.333333%;
+    img{
+
+      width: 45px;
+      height: 32px;
+      margin: 42px 34px 0 32px;
+
+      &[alt="percent"]  {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+  &__delivInfo {
+      margin-top: 48px;
+    p {
+
+      color: #fbfbfb;
+      font-size: 20px;
+      font-weight: 700;
+      font-style: normal;
+      letter-spacing: 0.5px;
+      line-height: normal;
+      text-align: left;
+    }
+    span {
+      color: #fbfbfb;
+      font-size: 14px;
+      font-weight: 300;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 24px;
+      text-align: left;
+    }
+  }
+}

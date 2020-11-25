@@ -1,0 +1,116 @@
+ .product {
+  position: relative;
+   display: flex;
+   flex-wrap: wrap;
+
+
+
+   &__card{
+     position: relative;
+
+     width: 263px;
+     height: 364px;
+
+     margin-bottom: 29px;
+
+
+
+     h1 {
+       color: #222222;
+       font-size: 13px;
+       font-weight: 400;
+       font-style: normal;
+       letter-spacing: normal;
+       line-height: normal;
+       text-align: left;
+       text-transform: uppercase;
+       margin: 20px 0 17px 15px;
+     }
+      h2 {
+        color: #f16d7f;
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: normal;
+        text-align: left;
+        text-transform: uppercase;
+        margin-left: 15px;
+      }
+   }
+
+   &__effect{
+
+     position: absolute;
+     z-index: 2;
+     opacity: 0;
+     width: 263px;
+     height: 364px;
+
+     background-image: url("../../images/Hover_effect.png");
+     background-repeat: no-repeat;
+
+     transition: opacity 0.3s linear;
+
+     a {
+       text-decoration: none;
+       color: white;
+     }
+    .button_buy {
+      margin: 98px 0 144px 70px;
+      width: 123px;
+      height: 39px;
+      border: 1px solid #ffffff;
+      align-items: center;
+    }
+
+    &:hover {
+      opacity: 100;
+      box-shadow: 0 5px 8px rgba(0, 0, 0, 0.16);
+
+    }
+
+   }
+
+ }
+
+ .btn_product {
+   position: relative;
+   width: 212px;
+   height: 48px;
+   background-color: #f16d7f;
+   border: 1px solid #f16d7f;
+   text-align: center;
+   margin-top: 50px;
+   transition:  0.3s linear;
+      a {
+        width: 212px;
+        height: 48px;
+        position: relative;
+        top: 17px;
+        text-decoration: none;
+
+        color: #ffffff;
+
+        font-size: 16px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 0.4px;
+
+
+        &:after {
+          margin-left: 5px;
+          content: url("../../images/arrow.png");
+        }
+
+      }
+   &:hover {
+     transform: scale(1.1 , 1.1);
+   }
+
+   &:active {
+     transform: scale(0.9 , 0.9);
+   }
+
+
+ }

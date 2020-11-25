@@ -1,0 +1,38 @@
+.main_page {
+  width: 1600px;
+  height: 665px;
+}
+.main_page__title {
+  padding-left: 12px;
+  border-left: 12px solid #f16d7f;
+  width: 550px;
+  height: 85px;
+  position: relative;
+  top: 224px;
+  left: -250px;
+  h1 {
+    margin-top: 0;
+    color: #222222;
+    font-size: 60px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    text-transform: uppercase;
+    line-height: 45px;
+
+  }
+
+  h2 {
+    line-height: 47px;
+    font-size: 40px;
+    font-style: normal;
+    letter-spacing: 1px;
+
+
+    span {
+      color: #f16d7f;
+    }
+
+  }
+}
