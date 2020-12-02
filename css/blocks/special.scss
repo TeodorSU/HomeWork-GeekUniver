@@ -1,13 +1,19 @@
 .special {
-  position: relative;
-  display: flex;
+  &_contain {
+    position: relative;
+    display: flex;
+
+  }
+
   &__hotdeal {
     display: block;
+    margin: 0 0 0 15px;
   }
   &__forMen {
     width: 560px;
     height: 542px;
     background-image: url(../../images/for_MEN.png);
+    background-size: contain;
 
     margin: 98px 20px 20px 0;
   }
@@ -15,16 +21,19 @@
     width: 560px;
     height: 261px;
     background-image: url(../../images/accesories.png);
+    background-size: contain;
     margin-right: 20px;
   }
   &__offer {
     display: block;
+    margin: 0 15px 0 0;
   }
 
   &__women {
     width: 560px;
     height: 261px;
     background-image: url(../../images/women.png);
+    background-size: contain;
 
     margin: 98px 0 20px 0;
   }
@@ -32,6 +41,8 @@
     width: 560px;
     height: 542px;
     background-image: url(../../images/for_kids.png);
+    background-size: contain;
+
   }
 
 }

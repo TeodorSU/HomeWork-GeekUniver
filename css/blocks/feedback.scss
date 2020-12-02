@@ -1,9 +1,15 @@
  .feedback {
-   position: relative;
-   width: 1600px;
-   height: 438px;
+    position: relative;
+    max-width: 1600px;
+    height: 438px;
 
-   margin-top: 97px;
+  &_contain {
+    position: relative;
+    width: 1600px;
+
+
+    margin-top: 97px;
+  }
 
    &__content {
      display: flex;
@@ -153,6 +159,8 @@
    }
    &__back  {
      position: relative;
+     top: 0;
+     left: 0;
 
      img:nth-child(1) {
        width: 1600px;

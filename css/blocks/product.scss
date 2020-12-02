@@ -1,7 +1,11 @@
  .product {
-  position: relative;
-   display: flex;
-   flex-wrap: wrap;
+
+   &_contain {
+     position: relative;
+     display: flex;
+     flex-wrap: wrap;
+   }
+
 
 
 

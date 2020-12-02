@@ -1,18 +1,23 @@
 .baner {
-  position: relative;
-  display: flex;
-  margin-top: 113px;
 
+  &_contain {
+
+    position: relative;
+    display: flex;
+    margin-top: 113px;
+  }
   &__forWomen {
 
     position: relative;
-
-    width: 767px;
+    margin-right:  0;
+    max-width: 767px;
     height: 529px;
     background-color: black;
 
     .baner__photo {
-
+      img {
+        max-width: 767px;
+      }
       img:nth-child(1) {
         position: absolute;
       }
@@ -66,13 +71,14 @@
 
 
   &__deliv {
-    width: 373px;
+    max-width: 403px;
+    margin-right: 0;
     height: 529px;
     background-color: #222224;
   }
   &__content {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 33.333333%;
     img{
 

@@ -1,15 +1,14 @@
 .main_page {
-  width: 1600px;
+  max-width: 1600px;
   height: 665px;
+  background-image: url(../../images/bg-image.png);
 }
 .main_page__title {
   padding-left: 12px;
-  border-left: 12px solid #f16d7f;
   width: 550px;
   height: 85px;
-  position: relative;
+  position: absolute;
   top: 224px;
-  left: -250px;
   h1 {
     margin-top: 0;
     color: #222222;
@@ -19,12 +18,12 @@
     letter-spacing: normal;
     text-align: left;
     text-transform: uppercase;
-    line-height: 45px;
+    line-height: normal;
 
   }
 
   h2 {
-    line-height: 47px;
+    line-height: normal;
     font-size: 40px;
     font-style: normal;
     letter-spacing: 1px;
@@ -34,5 +33,16 @@
       color: #f16d7f;
     }
 
+  }
+  &::before {
+    content: "";
+    width: 12px;
+    height: 96px;
+    background-color: #f16d7f;
+
+    position: absolute;
+    z-index: 3;
+    top: 16px;
+    left: -12px;
   }
 }

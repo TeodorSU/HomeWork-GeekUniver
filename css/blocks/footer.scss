@@ -1,11 +1,14 @@
  footer {
-
-   display: flex;
-   justify-content: space-between;
-   width: 1600px;
-   height: 79px;
    background-color: #e6e6e6;
    margin-top: 89px;
+
+   .footer_contain {
+     display: flex;
+     justify-content: space-between;
+     width: 1600px;
+     height: 79px;
+
+   }
 .copyright {
   margin-left: 0;
   margin-top: 20px;
