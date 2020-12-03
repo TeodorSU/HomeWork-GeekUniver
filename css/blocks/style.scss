@@ -94,7 +94,7 @@ nav {
 }
 
 
-//....BLOCKS
+//....BLOCKS index
 
 @import "btn";
 @import "nav";
@@ -106,3 +106,8 @@ nav {
 @import "feedback";
 @import "footer";
 @import "info";
+
+//....BLOCKS Product
+
+@import "breadcrumb";
+@import "market";

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/blocks/style.css">
+    <script src="https://kit.fontawesome.com/236661dcef.js" crossorigin="anonymous"></script>
+    <title>Product</title>
+
+</head>
+<body>
+    <header>
+    <div class="container header__contain">
+        <div class="logo">
+            <div class="logo__images"><a href="index.html"><img src="images/brand_logo.png" alt=""></a></div>
+            <div class="logo__text">
+                BRAN<span>D</span>
+            </div>
+        </div>
+        <div class="search">
+            <form action="#">
+                <div class="search__btn"><a href=""><p>Browse</p></a></div>
+                <input class="search__line" type="text" placeholder="Search for items...">
+                <div class="search__item"  >
+                    <a href=""><img src="images/search.png" alt=""></a> </div>
+            </form>
+        </div>
+        <div class="header__basket">
+            <img src="images/basket.png" alt="">
+            <input  class="btn__account" type="button" value="My Account">
+        </div>
+    </div>
+</header>                     <!-- header -->
+    <nav>
+        <div class="container">
+            <ul class="nav__menu">
+                <li class="nav__link"><a href="index.html">Home</a></li>
+                <li class="nav__link"><a href="">Man</a></li>
+                <li class="nav__link"><a href="">Women</a></li>
+                <li class="nav__link"><a href="">Kids</a></li>
+                <li class="nav__link"><a href="">Accoseriese</a></li>
+                <li class="nav__link"><a href="">Featured</a></li>
+                <li class="nav__link"><a href="">HotDeals</a></li>
+            </ul>
+        </div>
+    </nav>                        <!-- nav горизонтальное меню -->
+    <section class="breadcrumb">
+        <div class="container breadcrumb_contain">
+            <div class="breadcrumb__title">
+                <p>New arrivals</p>
+            </div>
+            <div class="breadcrumb__nav">
+                <p>Home</p>
+                <p>Men</p>
+                <p>New arrivals</p>
+            </div>
+        </div>
+    </section>
+    <section class="market">
+        <div class="container market_contain">
+            <div class="market__nav">
+                    <div class="tab">
+                        <input type="checkbox" id="category" name="tab-group">
+                        <label for="category" class="tab-title">category <i class="fas fa-angle-down"></i></label>
+                        <section class="tab-content">
+                            <a href=""> <div class="tab-content_link">Accessories</div> </a>
+                            <a href=""> <div class="tab-content_link">Bags</div> </a>
+                            <a href=""> <div class="tab-content_link">Denim</div> </a>
+                            <a href=""> <div class="tab-content_link">Hoodies & Sweatshirts</div> </a>
+                            <a href=""> <div class="tab-content_link">Jackets & Coats</div> </a>
+                            <a href=""> <div class="tab-content_link">Pants</div> </a>
+                            <a href=""> <div class="tab-content_link">Polos</div> </a>
+                            <a href=""> <div class="tab-content_link">Shirts</div> </a>
+                            <a href=""> <div class="tab-content_link">Shoes</div> </a>
+                            <a href=""> <div class="tab-content_link">Shorts</div> </a>
+                            <a href=""> <div class="tab-content_link">Sweaters & Knits</div> </a>
+                            <a href=""> <div class="tab-content_link">T-Shirts</div> </a>
+                            <a href=""> <div class="tab-content_link">Tanks</div> </a>
+                        </section>
+                    </div>
+                    <div class="tab">
+                        <input type="checkbox" id="brand" name="tab-group">
+                        <label for="brand" class="tab-title">brand <i class="fas fa-angle-down"></i></label>
+                        <section class="tab-content">
+                            <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+
+                        </section>
+                    </div>
+                    <div class="tab">
+                        <input type="checkbox" id="designer" name="tab-group">
+                        <label for="designer" class="tab-title">Design <i class="fas fa-angle-down"></i></label>
+                        <section class="tab-content">
+                            <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+                        </section>
+                    </div>
+            </div>
+            <div class="market__product">
+                <div class="market__filter">
+                    <div class="market__trending">
+                        <p class="filter_title">
+                            Trending now
+                        </p>
+                        <div class="market__trending-wrapper">
+                            <button class="market__trending-items">Bohemian</button>
+                            <button class="market__trending-items">Floral</button>
+                            <button class="market__trending-items">lace</button>
+                            <button class="market__trending-items">Floral</button>
+                            <button class="market__trending-items">Lace</button>
+                            <button class="market__trending-items">Bohemian</button>
+                        </div>
+                    </div>
+                    <div class="market__size">
+                        <p class="filter_title">
+                            Size
+                        </p>
+                        <div class="size-item-wrapper">
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XXS
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    L
+                                </label>
+                            </div>
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XS
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XL
+                                </label>
+                            </div>
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    S
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XXL
+                                </label>
+                            </div>
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    M
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XS
+                                </label>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="market__price">
+                        <p class="filter_title">
+                            price
+                        </p>
+                    </div>
+                </div>
+                <div class="market__sort">
+                    <label class="market__label" for="name">
+                        Sort by
+                        <select name="" id="name">
+                            <option value="Name">Name</option>
+                            <option value="">Brand</option>
+                            <option value="">Price</option>
+                        </select>
+                    </label>
+
+                    <label class="market__label" for="show">
+                        Show
+                        <select name="" id="show">
+                            <option value="">9</option>
+                            <option value="">12</option>
+                            <option value="">15</option>
+                        </select>
+                    </label>
+
+                </div>
+                <div class="market__cards">
+                        <div class="container market__cards_contain">
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <img src="images/card_1.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <img src="images/card_2.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_3.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_4.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_5.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_6.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_7.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_8.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <img src="images/card_2.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                        </div>
+                </div>
+                <div class="market__number"></div>
+            </div>
+        </div>
+    </section>     <!-- market карточки товара -->
+
+</body>
+</html>
