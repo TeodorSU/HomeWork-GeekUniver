@@ -1,8 +1,14 @@
+nav {
+  padding: 0;
+  height: 50px;
+}
 .nav__menu {
-
+  position: relative;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   list-style-type: none;
+
 
   max-width: 680px;
 
@@ -19,14 +25,32 @@
 
 
   .nav__link a {
+    position: relative;
+
+
     color: #222222;
     text-decoration: none;
+
+    &:hover:before {
+      position: absolute;
+      top: 32px;
+      z-index: 10;
+      content: "";
+      height: 3px;
+      width: 100%;
+      background-color: #f16d7f;
+      transition: width 0.2s linear;
+    }
+
   }
 
   .nav__link{
+    margin-top: 12px;
+    position: relative;
 
-    &:hover {
-      transform: scale(1.1, 1.1);
+    &::before:hover {
+      position: relative;
+
     }
 
     &:active  {

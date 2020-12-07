@@ -11,6 +11,11 @@
     margin-top: 97px;
   }
 
+   &__product-contain {
+     position: relative;
+     width: 1600px;
+   }
+
    &__content {
      display: flex;
      position: absolute;
