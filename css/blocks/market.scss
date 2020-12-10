@@ -72,7 +72,73 @@
         }
       }
       .market__price {
-        max-width:  180px;
+        width:  180px;
+
+        .market__greyPrice{
+          width: 100%;
+          height: 6px;
+          border-radius: 5px 5px 5px 5px;
+
+          background-color: #f0f0f0;
+          margin-top: 35px;
+      }
+
+        .market__redPrice {
+          position: relative;
+          top: -11px;
+          left: 10px;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+
+
+          .market__pagination {
+            width: 14px;
+            height: 14px;
+            border-radius: 50%;
+
+            background-color: #f16d7f;
+
+            margin: 0;
+            padding: 0;
+          }
+          .market__line {
+            width: 80px;
+            height: 7px;
+
+            background-color: #f16d7f;
+
+            margin: 0;
+            padding: 0;
+
+            transform: scale(1.1);
+          }
+        }
+        .market__sum {
+          display: flex;
+          justify-content: space-between;
+
+          .market__min {
+            margin: 0;
+            padding: 0;
+
+            color: #6f6e6e;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+          }
+          .market__max {
+            margin: 0;
+            padding: 0;
+
+            color: #6f6e6e;
+            font-size: 14px;
+            font-weight: 400;
+            font-style: normal;
+            letter-spacing: normal;
+          }
+        }
       }
     }
 

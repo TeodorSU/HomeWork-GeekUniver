@@ -3,6 +3,10 @@
     position: relative;
     display: flex;
 
+    @media screen and (max-width: 1140px) {
+      width: 560px;
+      display: block;
+    }
   }
 
   &__hotdeal {
@@ -16,6 +20,10 @@
     background-size: contain;
 
     margin: 98px 20px 20px 0;
+
+    @media screen and (max-width: 1140px) {
+      margin: 98px 0 20px 0;
+    }
   }
   &__accesories {
     width: 560px;
@@ -23,6 +31,10 @@
     background-image: url(../../images/accesories.png);
     background-size: contain;
     margin-right: 20px;
+    @media screen and (max-width: 1140px) {
+          margin-right: 0;
+    }
+
   }
   &__offer {
     display: block;
@@ -36,6 +48,10 @@
     background-size: contain;
 
     margin: 98px 0 20px 0;
+
+    @media screen and (max-width: 1140px) {
+            margin: 20px 0 20px 0;
+    }
   }
   &__kids {
     width: 560px;
@@ -92,5 +108,6 @@
     width: 180px;
     height: 82px;
   }
+
 
 }

@@ -1,14 +1,17 @@
 .main_page {
-  max-width: 1600px;
-  height: 665px;
-  background-image: url(../../images/bg-image.png);
+  position: relative;
+  width: 100%;
+
+  background-color: #e8e8e8;
 }
 .main_page__title {
+  position: absolute;
   padding-left: 12px;
   width: 550px;
   height: 85px;
-  position: absolute;
   top: 224px;
+  z-index: 5;
+
   h1 {
     margin-top: 0;
     color: #222222;
@@ -28,12 +31,14 @@
     font-style: normal;
     letter-spacing: 1px;
 
-
     span {
       color: #f16d7f;
     }
 
   }
+
+
+
   &::before {
     content: "";
     width: 12px;
@@ -45,4 +50,9 @@
     top: 16px;
     left: -12px;
   }
+}
+.main_page__photo {
+   position: relative;
+   left: -300px;
+
 }
