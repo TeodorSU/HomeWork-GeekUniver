@@ -578,6 +578,8 @@ nav {
   position: relative;
   max-width: 100%;
   height: 438px;
+  background-image: url(../../images/blur_layer.png), url("../../images/feedback.png");
+  background-size: cover, cover;
 }
 .feedback_contain {
   position: relative;
@@ -706,19 +708,6 @@ nav {
   background-color: white;
   position: absolute;
   z-index: 2;
-}
-.feedback__back {
-  position: relative;
-  background-color: #f7f7f8;
-}
-.feedback__back img:nth-child(1) {
-  width: 1600px;
-  height: 438px;
-  position: absolute;
-}
-.feedback__back img:nth-child(2) {
-  width: 1600px;
-  height: 438px;
 }
 
 footer {
@@ -1285,14 +1274,34 @@ footer .social ul li:nth-child(3) {
   text-align: center;
 }
 
+.checkout {
+  margin-top: 30px;
+}
+.checkout__part {
+  border-bottom: 1px solid #e8e8e8;
+  margin-top: 35px;
+  padding-bottom: 35px;
+}
+.checkout__part:last-child {
+  margin-bottom: 90px;
+}
 .checkout .part-content .registration {
   display: block;
+  width: 50%;
+  margin-right: 0;
 }
 .checkout .part-content .registration__text {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.checkout .part-content .registration__text h2 {
+.checkout .part-content .registration__label {
+  margin-bottom: 10px;
+}
+.checkout .part-content .registration__label input {
+  margin-right: 10px;
+}
+.checkout .part-content .registration__h2 {
+  margin: 0;
   color: #222222;
   font-size: 13px;
   font-weight: 700;
@@ -1302,7 +1311,8 @@ footer .social ul li:nth-child(3) {
   text-align: left;
   text-transform: uppercase;
 }
-.checkout .part-content .registration__text span {
+.checkout .part-content .registration__span {
+  margin: 0;
   color: #b3b2b2;
   font-size: 13px;
   font-weight: 700;
@@ -1311,11 +1321,59 @@ footer .social ul li:nth-child(3) {
   line-height: 20px;
   text-align: left;
 }
-.checkout .part-content .registration__label {
-  margin-bottom: 10px;
+.checkout .part-content .adress {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0;
 }
-.checkout .part-content .registration__label input {
-  margin-right: 10px;
+.checkout .part-content .adress__item {
+  margin: 25px 0 0 0;
+  color: #222222;
+  font-size: 12px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}
+.checkout .part-content .adress__error {
+  margin: 10px 0 0 0;
+  color: #ff0d0d;
+  font-size: 13px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+}
+.checkout .part-content .adress__button {
+  margin: 0;
+}
+.checkout .part-content .adress__button a {
+  text-decoration: none;
+  color: #222222;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: normal;
+  line-height: 20px;
+  text-align: left;
+  margin-left: 32px;
+}
+.checkout .part-content .adress__button input {
+  margin-top: 43px;
+  margin-left: 0;
+}
+.checkout .part-content .adress__reg {
+  margin-left: 0;
+  width: 395px;
+  height: 45px;
+  border: 1px solid #eaeaea;
+}
+.checkout .part-content .adress__h2-cont {
+  margin-top: 30px;
 }
 .checkout .checkout__in, .checkout .part-content {
   display: none;
@@ -1371,10 +1429,6 @@ footer .social ul li:nth-child(3) {
   background-color: #ffffff;
   text-align: center;
   margin-top: 38px;
-}
-
-.check__btn :active ~ .adress {
-  visibility: hidden;
 }
 
 /*# sourceMappingURL=style.css.map */
