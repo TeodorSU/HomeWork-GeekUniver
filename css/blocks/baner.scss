@@ -9,22 +9,13 @@
   &__forWomen {
 
     position: relative;
+    z-index: 2;
     margin-right:  0;
-    max-width: 767px;
+    min-width: 767px;
     height: 529px;
     background-color: black;
-
-    .baner__photo {
-      img {
-        max-width: 767px;
-      }
-      img:nth-child(1) {
-        position: absolute;
-      }
-
-    }
-
-
+    background-image: url(../../images/dark_layer.png), url("../../images/winter_women.png");
+    background-size:  cover,cover;
 
     .baner__text {
       position: absolute;
@@ -64,8 +55,6 @@
         line-height: normal;
       }
     }
-
-
   }
 
 

@@ -13,40 +13,36 @@
 </head>
 <body>
     <header>
-        <div class="container header__contain">
-            <div class="logo">
-                <div class="logo__images"><a href="index.html"><img src="images/brand_logo.png" alt=""></a></div>
-                <div class="logo__text">
-                    BRAN<span>D</span>
-                </div>
-            </div>
-            <div class="search">
-                <form action="#">
-                    <div class="search__btn"><a href=""><p>Browse</p></a></div>
-                    <input class="search__line" type="text" placeholder="Search for items...">
-                    <div class="search__item"  >
-                        <a href=""><img src="images/search.png" alt=""></a> </div>
-                </form>
-            </div>
-            <div class="header__basket">
-                <img src="images/basket.png" alt="">
-                <input  class="btn__account" type="button" value="My Account">
+    <div class="container header__contain">
+        <div class="logo">
+            <div class="logo__images"><a href="index.html"><img src="images/brand_logo.png" alt=""></a></div>
+            <div class="logo__text">
+                BRAN<span>D</span>
             </div>
         </div>
-    </header>                     <!-- header -->
-    <nav>
-        <div class="container">
-            <ul class="nav__menu">
-                <li class="nav__link"><a href="">Home</a></li>
-                <li class="nav__link"><a href="">Man</a></li>
-                <li class="nav__link"><a href="">Women</a></li>
-                <li class="nav__link"><a href="">Kids</a></li>
-                <li class="nav__link"><a href="">Accoseriese</a></li>
-                <li class="nav__link"><a href="">Featured</a></li>
-                <li class="nav__link"><a href="">HotDeals</a></li>
-            </ul>
+        <form action="#">
+            <div class="search__btn"><a href=""><p>Browse</p></a></div>
+            <input class="search__line" type="text" placeholder="Search for items...">
+            <div class="search__item"  >
+                <a href=""><img src="images/search.png" alt=""></a> </div>
+        </form>
+
+        <div class="header__basket">
+            <img src="images/basket.png" alt="">
+            <input  class="btn__account" type="button" value="My Account">
         </div>
-    </nav>                        <!-- nav горизонтальное меню -->
+    </div>
+</header>                   <!-- header -->
+    <nav class="nav__menu container">
+
+        <a href="">Home</a>
+        <a href="">Man</a>
+        <a href="">Women</a>
+        <a href="">Kids</a>
+        <a href="">Accoseriese</a>
+        <a href="">Featured</a>
+        <a href="">HotDeals</a>
+    </nav>   <!-- nav горизонтальное меню -->
     <section class="breadcrumb">
         <div class="container breadcrumb_contain">
             <div class="breadcrumb__title">
@@ -92,14 +88,14 @@
                     <div class="adress">
                         <h2 class="registration__h2 adress__h2-cont" >Already registed?</h2>
                         <span class="registration__span" >Please log in below</span>
-                        <span class="adress__item">email  address</span>
-                        <label>
-                            <input class="adress__reg" type="text">
-                        </label>
-                        <span class="adress__item">password</span>
-                        <label>
-                            <input class="adress__reg" type="text">
-                        </label>
+                        <form action="">
+                            <label><p>email  address</p>
+                                <input class="adress__reg" type="text">
+                            </label>
+                            <label><p>password</p>
+                                <input class="adress__reg" type="text">
+                            </label>
+                        </form>
                         <span class="adress__error">* Required Fileds</span>
                         <div class="adress__button">
                             <input type="button" class="registration__continue" value="log in">

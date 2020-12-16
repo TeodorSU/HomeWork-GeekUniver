@@ -21,14 +21,12 @@ body {
   display: flex;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
 }
 
 header {
   display: flex;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 1600px;
+  margin-left: auto;
+  width: 100%;
   height: 100px;
   border-bottom: 1px solid grey;
 }
@@ -62,16 +60,12 @@ header .logo__text span {
   line-height: normal;
   color: #ff0000;
 }
-header .search {
-  position: absolute;
-  left: 200px;
-  margin: 0;
-}
-header .search form {
+header form {
   display: flex;
   justify-content: center;
   border-radius: 0 3px 3px 0;
   border: 1px solid #e6e6e6;
+  margin-left: 46px;
 }
 
 nav {
@@ -139,7 +133,7 @@ nav {
 .header__basket {
   display: flex;
   width: 190px;
-  margin: 0;
+  margin-right: 0;
 }
 .header__basket img {
   margin-top: 8px;
@@ -148,7 +142,7 @@ nav {
   height: 29px;
 }
 .header__basket .btn__account {
-  margin: 0 auto;
+  margin-left: auto;
   padding: 0;
   font-family: "Lato", sans-serif;
   font-size: 14px;
@@ -215,14 +209,18 @@ nav {
   position: relative;
   width: 100%;
   background-color: #e8e8e8;
+  background-image: url(../../images/bg-image.png);
+  background-size: cover;
+  background-position: 0 0;
 }
 
 .main_page__title {
-  position: absolute;
-  padding-left: 12px;
+  margin-left: 12px;
   width: 550px;
-  height: 85px;
-  top: 224px;
+  min-height: 85px;
+  padding-left: 12px;
+  padding-top: 210px;
+  padding-bottom: 297px;
   z-index: 5;
 }
 .main_page__title h1 {
@@ -251,14 +249,9 @@ nav {
   height: 96px;
   background-color: #f16d7f;
   position: absolute;
-  z-index: 3;
-  top: 16px;
-  left: -12px;
-}
-
-.main_page__photo {
-  position: relative;
-  left: -300px;
+  z-index: 6;
+  top: 226px;
+  left: 8px;
 }
 
 .special_contain {
@@ -489,16 +482,13 @@ nav {
 }
 .baner__forWomen {
   position: relative;
+  z-index: 2;
   margin-right: 0;
-  max-width: 767px;
+  min-width: 767px;
   height: 529px;
   background-color: black;
-}
-.baner__forWomen .baner__photo img {
-  max-width: 767px;
-}
-.baner__forWomen .baner__photo img:nth-child(1) {
-  position: absolute;
+  background-image: url(../../images/dark_layer.png), url("../../images/winter_women.png");
+  background-size: cover, cover;
 }
 .baner__forWomen .baner__text {
   position: absolute;
@@ -830,7 +820,7 @@ footer .social ul li:nth-child(3) {
 }
 
 .breadcrumb {
-  max-width: 1600px;
+  width: 100%;
   height: 150px;
   background-color: #f8f3f4;
 }
@@ -1327,7 +1317,7 @@ footer .social ul li:nth-child(3) {
   flex-direction: column;
   margin-left: 0;
 }
-.checkout .part-content .adress__item {
+.checkout .part-content .adress label p {
   margin: 25px 0 0 0;
   color: #222222;
   font-size: 12px;
