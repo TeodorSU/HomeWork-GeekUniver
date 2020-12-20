@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/blocks/style.css">
+    <script src="https://kit.fontawesome.com/236661dcef.js" crossorigin="anonymous"></script>
+    <title>Checkout</title>
+</head>
+<body>
+    <header>
+    <div class="container header__contain">
+        <div class="logo">
+            <div class="logo__images"><a href="index.html"><img src="images/brand_logo.png" alt=""></a></div>
+            <div class="logo__text">
+                BRAN<span>D</span>
+            </div>
+        </div>
+        <form action="#">
+            <div class="search__btn"><a href=""><p>Browse</p></a></div>
+            <input class="search__line" type="text" placeholder="Search for items...">
+            <div class="search__item"  >
+                <a href=""><img src="images/search.png" alt=""></a>
+            </div>
+        </form>
+
+        <div class="header__basket">
+            <img src="images/basket.png" alt="">
+            <input  class="btn__account" type="button" value="My Account">
+        </div>
+    </div>
+</header>                   <!-- header -->
+    <nav class="nav__menu container">
+
+        <a href="">Home</a>
+        <a href="">Man</a>
+        <a href="">Women</a>
+        <a href="">Kids</a>
+        <a href="">Accoseriese</a>
+        <a href="">Featured</a>
+        <a href="">HotDeals</a>
+
+    </nav>   <!-- nav горизонтальное меню -->
+    <section class="breadcrumb">
+        <div class="container breadcrumb_contain">
+            <div class="breadcrumb__title">
+                <p>New arrivals</p>
+            </div>
+            <div class="breadcrumb__nav">
+                <p>Home</p>
+                <p>Men</p>
+                <p>New arrivals</p>
+            </div>
+        </div>
+    </section> <!-- breadcrumb хлебные крошки -->
+    <section class="checkout">
+        <div class="container">
+            <div class="checkout__part">
+                <input class="checkout__in" type="checkbox" id="Shipping" name="part-group">
+                <label for="Shipping" class="part-title">01.  Shipping adress</label>
+                <div class="part-content">
+                    <section class="registration">
+                        <div class="registration__text">
+                            <h2 class="registration__h2">Check as a guest or register</h2>
+                            <span class="registration__span">Register with us for future convenience</span>
+                        </div>
+                       <div class="registration__label">
+                           <label class="check__btn">
+                               <input name="registred" type="radio">checkout as guest
+                           </label>
+                       </div>
+                        <div class="registration__label">
+                            <label class="check__btn">
+                                <input name="registred" type="radio">register
+                            </label>
+                        </div>
+
+                        <div class="registration__text">
+                            <h2 class="registration__h2" >register and save time!</h2>
+                            <span class="registration__span" >Register with us for future convenience</span>
+                        </div>
+                        <div><span class="checkout__fast">>> Fast and easy checkout</span></div>
+                        <div><span class="checkout__fast">>> Easy access to your order history and status</span></div>
+                        <input class="registration__continue" type="button" value="continue">
+                    </section>
+                    <div class="adress">
+                        <h2 class="registration__h2 adress__h2-cont" >Already registed?</h2>
+                        <span class="registration__span" >Please log in below</span>
+                        <form action="">
+                            <label><p>email  address</p>
+                                <input class="adress__reg" type="text">
+                            </label>
+                            <label><p>password</p>
+                                <input class="adress__reg" type="text">
+                            </label>
+                        </form>
+                        <span class="adress__error">* Required Fileds</span>
+                        <div class="adress__button">
+                            <input type="button" class="registration__continue" value="log in">
+                            <a href="">Forgot Password ?</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="checkout__part">
+                <input class="checkout__in" type="checkbox" id="Billing" name="part-group">
+                <label for="Billing" class="part-title">02.   BILLING INFORMATION</label>
+            </div>
+            <div class="checkout__part">
+                <input class="checkout__in" type="checkbox" id="inform" name="part-group">
+                <label for="inform" class="part-title">03.   SHIPPING INFORMATION</label>
+            </div>
+            <div class="checkout__part">
+                <input class="checkout__in" type="checkbox" id="method" name="part-group">
+                <label for="method" class="part-title">04.   SHIPPING METHOD</label>
+            </div>
+            <div class="checkout__part">
+                <input class="checkout__in" type="checkbox" id="peyment" name="part-group">
+                <label for="peyment" class="part-title">05.   PAYMENT METHOD</label>
+            </div>
+            <div class="checkout__part">
+                <input class="checkout__in" type="checkbox" id="order" name="part-group">
+                <label for="order" class="part-title">06.   ORDER REVIEW</label>
+            </div>
+        </div>
+    </section>   <!-- checkout акордеон с регистрацией -->
+    <section class="feedback">
+        <div class="container feedback_contain">
+            <div class="feedback__content">
+                <div class="review">
+                    <div class="user_photo">
+                        <img src="images/user_photo.jpg" alt="">
+                    </div>
+                    <div class="user_review">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum
+                            mattis neque sed pretium”</p>
+                        <div class="user_name">
+                            <span>Teodor Prat</span>
+                            <p>Kursk, Russia</p>
+                        </div>
+                        <div class="pagination">
+                            <a href="" class="line"></a>
+                            <a href="" class="line line-active"></a>
+                            <a href="" class="line"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="subscribe">
+                    <div class="sub__text">
+                        <p class="title">Subscribe</p>
+                        <p class="subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                    </div>
+                    <form action="">
+                        <input type="email" placeholder="Enter your email"><input type="button" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>   <!-- feedback Слайдер с отзывами -->
+    <section class="info">
+        <div class="container info_contain">
+            <div class="info__about">
+                <div class="logo logo_posit">
+                    <div class="logo__images"><img src="images/brand_logo.png" alt=""></div>
+                    <div class="logo__text">
+                        BRAN<span>D</span>
+                    </div>
+                </div>
+                <div class="info__brand">
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+            </div>
+            <div class="info__company">
+                <span>COMPANY</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How it Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="info__info">
+                <span>INFORMATION</span>
+                <ul>
+                    <li><a href="#" >Tearms & Condition</a></li>
+                    <li><a href="#" >Privacy Policy</a></li>
+                    <li><a href="#" >How to Buy</a></li>
+                    <li><a href="#" >How to Sell</a></li>
+                    <li><a href="#" >Promotion</a></li>
+                </ul>
+            </div>
+            <div class="info__category">
+                <span>SHOP CATEGORY</span>
+                <ul>
+                    <li><a href="#" >Men</a></li>
+                    <li><a href="#" >Women</a></li>
+                    <li><a href="#" >Child</a></li>
+                    <li><a href="#" >Apparel</a></li>
+                    <li><a href="#" >Brows All</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>       <!-- info Блок с информацие о компании -->
+    <footer>
+        <div class="container footer_contain">
+            <div class="copyright">
+                <span>© 2017  Brand  All Rights Reserved.</span>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="" class="socail_link"><img src="images/facebook.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/twitter.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/in_social.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/p_social.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/google.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>                     <!-- footer  подвал-->
+</body>
+</html>

@@ -1,0 +1,97 @@
+.cart {
+  &__info {
+    display: flex;
+    flex-direction: column;
+  }
+  table {
+    width: 100%;
+    height: 550px;
+    border-collapse: collapse;
+
+    margin-top: 90px;
+    tr {
+      border-bottom: 1px solid lightgray;
+      td {
+        width: 130px;
+
+      }
+      td:nth-child(1) {
+        width: 125px;
+      }
+      td:nth-child(2) {
+        width: 375px;
+      }
+      input {
+        width: 54px;
+        height: 30px;
+        margin-left: 40px;
+        text-align: center;
+      }
+    }
+  }
+
+  &__title {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  &__info span{
+    margin-left: 0;
+  }
+  &__name {
+    color: #222222;
+    font-size: 13px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: right;
+    text-transform: uppercase;
+
+    margin-top: 25px;
+    margin-bottom: 40px
+  }
+
+  &__atrib {
+    color: #575757;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: left;
+  }
+  &__value {
+    font-weight: 300;
+  }
+
+  &__mark {
+    text-align: center;
+    color: #656565;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+  }
+
+  &__del svg{
+    width: 15px;
+    height: 15px;
+    opacity: 50%;
+
+    transition: opacity 0.1s linear;
+    &:hover {
+      transform: scale(2.1);
+      opacity: 100;
+    }
+
+  }
+
+
+}

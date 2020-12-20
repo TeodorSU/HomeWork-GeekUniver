@@ -1,25 +1,21 @@
 .baner {
-  position: relative;
-  display: flex;
-  margin-top: 113px;
+  margin-bottom: 97px;
+  &_contain {
 
+    position: relative;
+    display: flex;
+    margin-top: 113px;
+  }
   &__forWomen {
 
     position: relative;
-
-    width: 767px;
+    z-index: 2;
+    margin-right:  0;
+    min-width: 767px;
     height: 529px;
     background-color: black;
-
-    .baner__photo {
-
-      img:nth-child(1) {
-        position: absolute;
-      }
-
-    }
-
-
+    background-image: url(../../images/dark_layer.png), url("../../images/winter_women.png");
+    background-size:  cover,cover;
 
     .baner__text {
       position: absolute;
@@ -59,20 +55,19 @@
         line-height: normal;
       }
     }
-
-
   }
 
 
 
   &__deliv {
-    width: 373px;
+    max-width: 403px;
+    margin-right: 0;
     height: 529px;
     background-color: #222224;
   }
   &__content {
     display: flex;
-    width: 100%;
+    width: 90%;
     height: 33.333333%;
     img{
 

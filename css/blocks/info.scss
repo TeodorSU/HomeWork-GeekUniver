@@ -1,10 +1,16 @@
 .logo_posit {
   display: flex;
+  align-items: center;
   width: 72px;
+
+  margin-left: 0;
 }
 .info {
-  margin-top: 123px;
-  display: flex;
+
+  &_contain {
+    margin-top: 123px;
+    display: flex;
+  }
   &__brand {
     width: 430px;
 

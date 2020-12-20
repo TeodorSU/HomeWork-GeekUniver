@@ -7,58 +7,53 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/236661dcef.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/blocks/style.css">
     <title>Brands</title>
 </head>
 <body>
-    <div class="container">
-        <header class="padding__site">
+
+    <header>
+        <div class="container header__contain">
             <div class="logo">
                 <div class="logo__images"><a href="index.html"><img src="images/brand_logo.png" alt=""></a></div>
                 <div class="logo__text">
                     BRAN<span>D</span>
                 </div>
             </div>
-            <div class="search">
                 <form action="#">
                     <div class="search__btn"><a href=""><p>Browse</p></a></div>
                     <input class="search__line" type="text" placeholder="Search for items...">
                     <div class="search__item"  >
                     <a href=""><img src="images/search.png" alt=""></a> </div>
                 </form>
-            </div>
+
             <div class="header__basket">
                 <img src="images/basket.png" alt="">
                 <input  class="btn__account" type="button" value="My Account">
             </div>
-        </header>
+        </div>
+    </header>                   <!-- header -->
+    <nav class="nav__menu container">
 
-    </div>  <!-- header -->
-    <div class="container">
-        <nav class="padding__site">
-            <ul class="nav__menu">
-                <li class="nav__link"><a href="">Home</a></li>
-                <li class="nav__link"><a href="">Man</a></li>
-                <li class="nav__link"><a href="">Women</a></li>
-                <li class="nav__link"><a href="">Kids</a></li>
-                <li class="nav__link"><a href="">Accoseriese</a></li>
-                <li class="nav__link"><a href="">Featured</a></li>
-                <li class="nav__link"><a href="">HotDeals</a></li>
-            </ul>
-        </nav>
-    </div>  <!-- nav горизонтальное меню -->
-    <div class="container">
-        <div class="main_page padding__site">
+                <a href="">Home</a>
+                <a href="">Man</a>
+                <a href="">Women</a>
+                <a href="">Kids</a>
+                <a href="">Accoseriese</a>
+                <a href="">Featured</a>
+                <a href="">HotDeals</a>
+    </nav>  <!-- nav горизонтальное меню -->
+    <section class="main_page">
+        <div class="container">
             <div class="main_page__title">
                 <h1>THE BRAND</h1>
                 <h2>OF LUXERIOUS <span>FASHION</span></h2>
             </div>
-
         </div>
-
-    </div>  <!-- main_page фото со слогоном -->
-    <div class="container">
-        <div class="special padding__site">
+    </section><!-- main_page фото со слогоном -->
+    <section class="special">
+        <div class="container special_contain">
             <div class="special__hotdeal">
                 <div class="special__forMen">
                     <div class="stick stick__men">
@@ -88,17 +83,11 @@
                 </div>
             </div>
         </div>
-
-    </div>  <!-- special Специально предложение -->
-    <div class="container">
-        <div class="fetured padding__site">
-            <div class="fetured__title">Fetured Items</div>
-            <div class="fetured__subtitle">Shop for items based on what we featured in this week</div>
-        </div>
-    </div>  <!-- fetured заголовок и подзаголовок для карточек с товаром -->
-    <div class="container">
-        <div class="product padding__site">
-
+    </section>  <!-- special Специально предложение -->
+    <section class="product">
+        <div class="product__title"><h1>Fetured Items</h1></div>
+        <div class="product__subtitle">Shop for items based on what we featured in this week</div>
+        <div class="container product_contain">
             <div class="product__card">
                 <div class="product__effect">
                     <a href="">
@@ -113,7 +102,6 @@
                 <h2>$52.00</h2>
 
             </div>
-
             <div class="product__card">
                 <div class="product__effect">
                     <a href="">
@@ -199,19 +187,15 @@
                 <h1>Mango  People  T-shirt</h1>
                 <h2>$52.00</h2>
             </div>
+            <div class="btn_product"><a  href="#">Browse All Product</a></div>
         </div>
-        <div class="btn_product"><a  href="#">Browse All Product</a></div>
-    </div>  <!-- product карточки товара -->
-    <div class="container">
-        <div class="baner padding__site">
+    </section>  <!-- product карточки товара -->
+    <section class="baner">
+        <div class="container baner_contain">
             <div class="baner__forWomen">
                 <div class="baner__text">
                     <p>30% <span>OFFER</span></p>
                     <p>FOR WOMEN</p>
-                </div>
-                <div class="baner__photo">
-                    <img src="images/dark_layer.png" alt="ventrica">
-                    <img src="images/winter_women.png" alt="winterWomen">
                 </div>
             </div>
             <div class="baner__deliv">
@@ -239,46 +223,44 @@
                 </div>
             </div>
         </div>
-    </div>  <!-- baner Специальное предложение и доставка -->
-    <div class="feedback">
-        <div class="feedback__content padding__site">
-            <div class="review">
-                <div class="user_photo">
-                    <img src="images/user_photo.jpg" alt="">
-                </div>
-                <div class="user_review">
-                    <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
-                        a pulvinar purus condimentum a. Aliquam condimentum
-                        mattis neque sed pretium”</p>
-                    <div class="user_name">
-                        <span>Teodor Prat</span>
-                        <p>Kursk, Russia</p>
+    </section>    <!-- baner Специальное предложение и доставка -->
+    <section class="feedback">
+        <div class="container feedback_contain">
+            <div class="feedback__content">
+                <div class="review">
+                    <div class="user_photo">
+                        <img src="images/user_photo.jpg" alt="">
                     </div>
-                    <div class="pagination">
-                        <a href="" class="line"></a>
-                        <a href="" class="line line-active"></a>
-                        <a href="" class="line"></a>
+                    <div class="user_review">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum
+                            mattis neque sed pretium”</p>
+                        <div class="user_name">
+                            <span>Teodor Prat</span>
+                            <p>Kursk, Russia</p>
+                        </div>
+                        <div class="pagination">
+                            <a href="" class="line"></a>
+                            <a href="" class="line line-active"></a>
+                            <a href="" class="line"></a>
+                        </div>
                     </div>
-                </div>
 
-            </div>
-            <div class="subscribe">
-                <div class="sub__text">
-                    <p class="title">Subscribe</p>
-                    <p class="subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
                 </div>
-                <form action="">
-                    <input type="email" placeholder="Enter your email"><input type="button" value="Subscribe">
-                </form>
+                <div class="subscribe">
+                    <div class="sub__text">
+                        <p class="title">Subscribe</p>
+                        <p class="subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                    </div>
+                    <form action="">
+                        <input type="email" placeholder="Enter your email"><input type="button" value="Subscribe">
+                    </form>
+                </div>
             </div>
         </div>
-        <div class="feedback__back">
-            <img src="images/blur_layer.png" alt="">
-            <img src="images/feedback.png" alt="">
-        </div>
-    </div>   <!-- feedback Слайдер с отзывами -->
-    <div class="container">
-        <div class="info padding__site">
+    </section> <!-- feedback Слайдер с отзывами -->
+    <section class="info">
+        <div class="container info_contain">
             <div class="info__about">
                 <div class="logo logo_posit">
                     <div class="logo__images"><img src="images/brand_logo.png" alt=""></div>
@@ -323,22 +305,23 @@
                     </ul>
             </div>
         </div>
-    </div>  <!-- info Блок с информацие о компании -->
-    <footer class="padding__site">
-        <div class="copyright">
-            <span>© 2017  Brand  All Rights Reserved.</span>
+    </section>     <!-- info Блок с информацие о компании -->
+    <footer>
+        <div class="container footer_contain">
+            <div class="copyright">
+                <span>© 2017  Brand  All Rights Reserved.</span>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="" class="socail_link"><img src="images/facebook.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/twitter.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/in_social.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/p_social.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/google.png" alt=""></a></li>
+                </ul>
+            </div>
         </div>
-        <div class="social">
-            <ul>
-                <li><a href="" class="socail_link"><img src="images/facebook.png" alt=""></a></li>
-                <li><a href="" class="socail_link"><img src="images/twitter.png" alt=""></a></li>
-                <li><a href="" class="socail_link"><img src="images/in_social.png" alt=""></a></li>
-                <li><a href="" class="socail_link"><img src="images/p_social.png" alt=""></a></li>
-                <li><a href="" class="socail_link"><img src="images/google.png" alt=""></a></li>
-            </ul>
-        </div>
-    </footer> <!-- footer  подвал-->
-
+    </footer>                   <!-- footer  подвал-->
 
 </body>
 </html>

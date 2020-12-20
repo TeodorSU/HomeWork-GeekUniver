@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/blocks/style.css">
+    <script src="https://kit.fontawesome.com/236661dcef.js" crossorigin="anonymous"></script>
+    <title>Product</title>
+
+</head>
+<body>
+    <header>
+    <div class="container header__contain">
+        <div class="logo">
+            <div class="logo__images"><a href="index.html"><img src="images/brand_logo.png" alt=""></a></div>
+            <div class="logo__text">
+                BRAN<span>D</span>
+            </div>
+        </div>
+        <form action="#">
+            <div class="search__btn"><a href=""><p>Browse</p></a></div>
+            <input class="search__line" type="text" placeholder="Search for items...">
+            <div class="search__item"  >
+                <a href=""><img src="images/search.png" alt=""></a> </div>
+        </form>
+
+        <div class="header__basket">
+            <img src="images/basket.png" alt="">
+            <input  class="btn__account" type="button" value="My Account">
+        </div>
+    </div>
+</header>                   <!-- header -->
+    <nav class="nav__menu container">
+
+        <a href="">Home</a>
+        <a href="">Man</a>
+        <a href="">Women</a>
+        <a href="">Kids</a>
+        <a href="">Accoseriese</a>
+        <a href="">Featured</a>
+        <a href="">HotDeals</a>
+    </nav>  <!-- nav горизонтальное меню -->
+    <section class="breadcrumb">
+        <div class="container breadcrumb_contain">
+            <div class="breadcrumb__title">
+                <p>New arrivals</p>
+            </div>
+            <div class="breadcrumb__nav">
+                <p>Home</p>
+                <p>Men</p>
+                <p>New arrivals</p>
+            </div>
+        </div>
+    </section> <!-- breadcrumb хлебные крошки -->
+    <section class="market">
+        <div class="container market_contain">
+            <div class="market__nav">
+                    <div class="tab">
+                        <input type="checkbox" id="category" name="tab-group">
+                        <label for="category" class="tab-title">category <i class="fas fa-angle-down"></i></label>
+                        <section class="tab-content">
+                            <a href=""> <div class="tab-content_link">Accessories</div> </a>
+                            <a href=""> <div class="tab-content_link">Bags</div> </a>
+                            <a href=""> <div class="tab-content_link">Denim</div> </a>
+                            <a href=""> <div class="tab-content_link">Hoodies & Sweatshirts</div> </a>
+                            <a href=""> <div class="tab-content_link">Jackets & Coats</div> </a>
+                            <a href=""> <div class="tab-content_link">Pants</div> </a>
+                            <a href=""> <div class="tab-content_link">Polos</div> </a>
+                            <a href=""> <div class="tab-content_link">Shirts</div> </a>
+                            <a href=""> <div class="tab-content_link">Shoes</div> </a>
+                            <a href=""> <div class="tab-content_link">Shorts</div> </a>
+                            <a href=""> <div class="tab-content_link">Sweaters & Knits</div> </a>
+                            <a href=""> <div class="tab-content_link">T-Shirts</div> </a>
+                            <a href=""> <div class="tab-content_link">Tanks</div> </a>
+                        </section>
+                    </div>
+                    <div class="tab">
+                        <input type="checkbox" id="brand" name="tab-group">
+                        <label for="brand" class="tab-title">brand <i class="fas fa-angle-down"></i></label>
+                        <section class="tab-content">
+                            <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+
+                        </section>
+                    </div>
+                    <div class="tab">
+                        <input type="checkbox" id="designer" name="tab-group">
+                        <label for="designer" class="tab-title">Design <i class="fas fa-angle-down"></i></label>
+                        <section class="tab-content">
+                            <a href="">1</a>
+                            <a href="">2</a>
+                            <a href="">3</a>
+                            <a href="">4</a>
+                            <a href="">5</a>
+                        </section>
+                    </div>
+            </div>
+            <div class="market__product">
+                <div class="market__filter">
+                    <div class="market__trending">
+                        <p class="filter_title">
+                            Trending now
+                        </p>
+                        <div class="market__trending-wrapper">
+                            <button class="market__trending-items">Bohemian</button>
+                            <button class="market__trending-items">Floral</button>
+                            <button class="market__trending-items">lace</button>
+                            <button class="market__trending-items">Floral</button>
+                            <button class="market__trending-items">Lace</button>
+                            <button class="market__trending-items">Bohemian</button>
+                        </div>
+                    </div>
+                    <div class="market__size">
+                        <p class="filter_title">
+                            Size
+                        </p>
+                        <div class="size-item-wrapper">
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XXS
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    L
+                                </label>
+                            </div>
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XS
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XL
+                                </label>
+                            </div>
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    S
+                                </label>
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    XXL
+                                </label>
+                            </div>
+                            <div class="size-vertical-wrapper">
+                                <label class="size-item">
+                                    <input type="checkbox">
+                                    M
+                                </label>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="market__price">
+                        <p class="filter_title">
+                            price
+                        </p>
+                        <div class="market__greyPrice"></div>
+                        <div class="market__redPrice">
+                            <div class="market__pagination"></div>
+                            <div class="market__line"></div>
+                            <div class="market__pagination"></div>
+                        </div>
+                        <div class="market__sum">
+                            <div class="market__min">50$</div>
+                            <div class="market__max">400$</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="market__sort">
+                    <label class="market__label" for="name">
+                        Sort by
+                        <select name="" id="name">
+                            <option value="Name">Name</option>
+                            <option value="">Brand</option>
+                            <option value="">Price</option>
+                        </select>
+                    </label>
+
+                    <label class="market__label" for="show">
+                        Show
+                        <select name="" id="show">
+                            <option value="">9</option>
+                            <option value="">12</option>
+                            <option value="">15</option>
+                        </select>
+                    </label>
+
+                </div>
+                <div class="market__cards">
+                        <div class="container market__cards_contain">
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <img src="images/card_1.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <img src="images/card_2.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_3.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_4.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_5.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_6.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_7.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div><img src="images/card_8.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+                            <div class="market__card">
+                                <div class="market__effect">
+                                    <a href="">
+                                        <div class="button_buy">
+                                            <img class="icon" src="images/basket_white.png" alt="">
+                                            <span>Add to Cart</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <img src="images/card_2.png" alt="">
+                                <h1>Mango  People  T-shirt</h1>
+                                <h2>$52.00</h2>
+                            </div>
+
+                        </div>
+                    <div class="market__number">
+                        <div class="market__num">
+                            <a href="">1</a><a href="">2</a><a href="">3</a><a href="">4</a><a
+                                href="">5</a><a href="">6</a><a href="">7</a><a href="">8</a><a
+                                href="">9</a><a href="">10</a><a href="">11</a><a href="">12</a><a
+                                href="">13</a><a href="">14</a><a href="">15</a><a href="">16</a><a
+                                href="">17</a><a href="">18</a><a href="">19</a><a href="">20</a>
+
+                        </div>
+                        <input  class="market__btn" type="button" value="View All">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>     <!-- market карточки товара -->
+    <section class="delivery">
+        <div class="container delivery_contain">
+            <div class="delivery__content">
+                <img src="images/delivery.png" alt="">
+                <h2>Free Delivery</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, quos. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis, fuga.</span>
+            </div>
+            <div class="delivery__content">
+                <img src="images/percent.png" alt="">
+                <h2>Sales & discounts</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis, vel. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, sunt.</span>
+            </div>
+            <div class="delivery__content">
+                <img src="images/crown.png" alt="">
+                <h2>Quality assurance</h2>
+                <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, quis! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vel, velit?</span>
+            </div>
+        </div>
+    </section>   <!-- delivery о доставке и скидках -->
+    <section class="feedback">
+        <div class="container feedback_contain">
+            <div class="feedback__content">
+                <div class="review">
+                    <div class="user_photo">
+                        <img src="images/user_photo.jpg" alt="">
+                    </div>
+                    <div class="user_review">
+                        <p>“Vestibulum quis porttitor dui! Quisque viverra nunc mi,
+                            a pulvinar purus condimentum a. Aliquam condimentum
+                            mattis neque sed pretium”</p>
+                        <div class="user_name">
+                            <span>Teodor Prat</span>
+                            <p>Kursk, Russia</p>
+                        </div>
+                        <div class="pagination">
+                            <a href="" class="line"></a>
+                            <a href="" class="line line-active"></a>
+                            <a href="" class="line"></a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="subscribe">
+                    <div class="sub__text">
+                        <p class="title">Subscribe</p>
+                        <p class="subtitle">FOR OUR NEWLETTER AND PROMOTION</p>
+                    </div>
+                    <form action="">
+                        <input type="email" placeholder="Enter your email"><input type="button" value="Subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>   <!-- feedback Слайдер с отзывами -->
+    <section class="info">
+        <div class="container info_contain">
+            <div class="info__about">
+                <div class="logo logo_posit">
+                    <div class="logo__images"><img src="images/brand_logo.png" alt=""></div>
+                    <div class="logo__text">
+                        BRAN<span>D</span>
+                    </div>
+                </div>
+                <div class="info__brand">
+                    <p>Objectively transition extensive data rather than cross functional solutions. Monotonectally syndicate multidisciplinary materials before go forward benefits. Intrinsicly syndicate an expanded array of processes and cross-unit partnerships.</p>
+                    <p>Efficiently plagiarize 24/365 action items and focused infomediaries.
+                        Distinctively seize superior initiatives for wireless technologies. Dynamically optimize.</p>
+                </div>
+            </div>
+            <div class="info__company">
+                <span>COMPANY</span>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">How it Works</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="info__info">
+                <span>INFORMATION</span>
+                <ul>
+                    <li><a href="#" >Tearms & Condition</a></li>
+                    <li><a href="#" >Privacy Policy</a></li>
+                    <li><a href="#" >How to Buy</a></li>
+                    <li><a href="#" >How to Sell</a></li>
+                    <li><a href="#" >Promotion</a></li>
+                </ul>
+            </div>
+            <div class="info__category">
+                <span>SHOP CATEGORY</span>
+                <ul>
+                    <li><a href="#" >Men</a></li>
+                    <li><a href="#" >Women</a></li>
+                    <li><a href="#" >Child</a></li>
+                    <li><a href="#" >Apparel</a></li>
+                    <li><a href="#" >Brows All</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>       <!-- info Блок с информацие о компании -->
+    <footer>
+        <div class="container footer_contain">
+            <div class="copyright">
+                <span>© 2017  Brand  All Rights Reserved.</span>
+            </div>
+            <div class="social">
+                <ul>
+                    <li><a href="" class="socail_link"><img src="images/facebook.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/twitter.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/in_social.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/p_social.png" alt=""></a></li>
+                    <li><a href="" class="socail_link"><img src="images/google.png" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>                     <!-- footer  подвал-->
+
+</body>
+</html>
